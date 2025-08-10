@@ -3,7 +3,7 @@ import { EquipmentService } from './equipment.service';
 import { EquipmentController } from './equipment.controller';
 
 @Module({
+  controllers: [EquipmentController],
   providers: [EquipmentService],
-  controllers: [EquipmentController]
 })
 export class EquipmentModule {}
